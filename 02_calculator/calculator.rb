@@ -38,8 +38,8 @@ end
 
 def factorial(number)
   result = 1
-  
-  if number > 1 #does not filter out negative numbers
+
+  if number > 1 # does not filter out negative numbers
     while number > 1
       result = result * number
       number = number - 1
